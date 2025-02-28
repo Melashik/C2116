@@ -4,8 +4,8 @@ import time
 from datetime import datetime
 
 # Налаштування
-CITY = "Kyiv"  # Замініть на ваше місто
-API_KEY = "27470e1ccffa2496829a84244be969e0"  # Отримайте безкоштовний API-ключ на https://openweathermap.org/
+CITY = "Kyiv"
+API_KEY = "27470e1ccffa2496829a84244be969e0"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 DB_NAME = "weather.db"
 
